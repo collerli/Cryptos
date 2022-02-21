@@ -3,7 +3,7 @@ pragma solidity ^0.8.2;
 contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
-    uint public totalSupply = 10000 * 10 ** 18; //Quantidade de moedas emitidas
+    uint public totalSupply = 10000 * 10 ** 18; //Quantidade de moedas emitidas nesse exemplo 10 mil moedas
     string public name = "Nome do Token";
     string public symbol = "Simbolo do token TKN";
     uint public decimals = 18;
